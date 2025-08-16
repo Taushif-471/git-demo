@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class GitDemoApplication {
 
+
     @GetMapping("/message/{name}")
     public String getMessage(@PathVariable  String name) {
         return "Welcome to git tutorial " + name+"It will be fun";

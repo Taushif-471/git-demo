@@ -14,7 +14,7 @@ public class GitDemoApplication {
 
     @GetMapping("/message/{name}")
     public String getMessage(@PathVariable  String name) {
-        return "Welcome to git tutorial " + name;
+        return "Welcome to git tutorial " + name+"It will be fun";
     }
 	public static void main(String[] args) {
 		SpringApplication.run(GitDemoApplication.class, args);

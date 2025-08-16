@@ -18,6 +18,11 @@ public class GitDemoApplication {
         return "Welcome to git tutorial " + name+"It will be fun";
     }
 
+    @GetMapping("/branchName")
+    public String branchDemo() {
+        return "Branching is a powerful feature in git...";
+    }
+
     public void addCode() {
         System.out.println("This is a new method added to the code");
     }
